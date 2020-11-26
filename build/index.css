@@ -1,0 +1,49 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.g-tooltips-popover {
+  z-index: 1 !important; }
+  .g-tooltips-popover .components-popover__content {
+    padding: 15px;
+    text-align: center; }
+  .g-tooltips-popover textarea {
+    width: 300px;
+    max-width: 100%; }
+  .g-tooltips-popover .g-tooltips-image__preview {
+    background: #f8f6fc;
+    border: 2px dashed var(--wp-admin-theme-color);
+    padding: 40px 10px;
+    border-radius: 5px;
+    display: flex;
+    width: 100%;
+    justify-content: center; }
+    .g-tooltips-popover .g-tooltips-image__preview:focus, .g-tooltips-popover .g-tooltips-image__preview:hover {
+      outline: none; }
+  .g-tooltips-popover .g-tooltips-image__toggle {
+    display: inline-block;
+    padding: 0; }
+  .g-tooltips-popover .edit-post-visual-editor .whisk-recipe-image__toggle {
+    display: block;
+    height: auto;
+    padding: 0; }
+  .g-tooltips-popover .g-tooltips-image__wrapper {
+    position: relative; }
+    .g-tooltips-popover .g-tooltips-image__wrapper .g-tooltips-image__remove {
+      position: absolute;
+      top: 5px;
+      right: 5px;
+      padding: 0;
+      border: 0;
+      outline: none;
+      background-color: transparent;
+      cursor: pointer;
+      transition: opacity .1s linear; }
+      .g-tooltips-popover .g-tooltips-image__wrapper .g-tooltips-image__remove:before {
+        border-radius: 50%;
+        background-color: #191e23;
+        color: #fff; }
+
+
+/*# sourceMappingURL=index.css.map*/
